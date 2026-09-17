@@ -1,4 +1,4 @@
-# Problem Statement: Multithreaded Java Chat Application
+# Problem Statement: Multithreaded Java Chat App
 
 ## Problem Statement
 In networked applications and distributed environments, facilitating concurrent, low-latency, real-time communication between multiple clients remains a foundational challenge. Standard single-threaded network implementations block execution during synchronous I/O operations, rendering them incapable of serving multiple concurrent users simultaneously. Without proper thread synchronization and non-blocking state management, multi-user applications risk race conditions, message delivery delays, data corruption, and connection drops.
